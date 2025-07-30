@@ -26,4 +26,4 @@ jobs:
           MATRIX_PASSWORD: ${{ secrets.MATRIX_PASSWORD }}
           MATRIX_ROOM_ID: ${{ secrets.MATRIX_ROOM_ID }}
         run: |
-          python roleapp.py
+          python src/roleapp.py
