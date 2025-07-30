@@ -2,7 +2,7 @@ name: Send Matrix Message
 
 on:
   schedule:
-    - cron: '0 9 * * 2'  # Every Tuesday at 09:00 UTC
+    - cron: '10 16 * * 3'  # Every Tuesday at 09:00 UTC
   workflow_dispatch:
 
 jobs:
