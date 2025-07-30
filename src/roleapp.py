@@ -6,7 +6,7 @@ import os
 import asyncio
 
 HOMESERVER = "https://matrix.org"
-USER_ID = os.environ["MATRIX_USER_ID"]
+USER_ID = os.environ["MATRIX_USERNAME"]
 ACCESS_TOKEN = os.environ["MATRIX_TOKEN"]
 ROOM_ID = os.environ["MATRIX_ROOM_ID"]
 
