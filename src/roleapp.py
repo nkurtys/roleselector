@@ -1,9 +1,10 @@
 import random
 import json
-from collections import defaultdict
-from nio import AsyncClient
 import os
 import asyncio
+from collections import defaultdict
+from nio import AsyncClient
+
 
 HOMESERVER = "https://matrix.org"
 USER_ID = os.environ["MATRIX_USERNAME"]
