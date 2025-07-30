@@ -23,7 +23,7 @@ jobs:
       - name: Run message script
         env:
           MATRIX_USERNAME: ${{ secrets.MATRIX_USERNAME }}
-          MATRIX_PASSWORD: ${{ secrets.MATRIX_PASSWORD }}
+          MATRIX_TOKEN: ${{ secrets.MATRIX_TOKEN }}
           MATRIX_ROOM_ID: ${{ secrets.MATRIX_ROOM_ID }}
         run: |
           python src/roleapp.py
