@@ -1,0 +1,128 @@
+[
+    {
+        "week": 1,
+        "people": [
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Moderator"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Till Sauerwein",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Speaker"
+            }
+        ]
+    },
+    {
+        "week": 2,
+        "people": [
+            {
+                "name": "Rabea Müller",
+                "role": "Moderator"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Natalie Kurtys",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Benjamin Wolff",
+                "role": "Speaker"
+            }
+        ]
+    },
+    {
+        "week": 3,
+        "people": [
+            {
+                "name": "Lina Junctorius",
+                "role": "Moderator"
+            },
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Konrad Förstner",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Speaker"
+            }
+        ]
+    },
+    {
+        "week": 4,
+        "people": [
+            {
+                "name": "Till Sauerwein",
+                "role": "Moderator"
+            },
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Speaker"
+            }
+        ]
+    },
+    {
+        "week": 5,
+        "people": [
+            {
+                "name": "Klaus Lippert",
+                "role": "Moderator"
+            },
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Speaker"
+            }
+        ]
+    },
+    {
+        "week": 6,
+        "people": [
+            {
+                "name": "Natalie Kurtys",
+                "role": "Moderator"
+            },
+            {
+                "name": "Konrad Förstner",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Speaker"
+            }
+        ]
+    }
+]
