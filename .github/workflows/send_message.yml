@@ -1,0 +1,29 @@
+name: Send Matrix Message
+
+on:
+  push:
+    branches: [ main ]  # or manually triggered
+
+jobs:
+  send_message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install matrix-nio[e2e]
+
+      - name: Run message script
+        env:
+          MATRIX_USERNAME: ${{ secrets.MATRIX_USERNAME }}
+          MATRIX_PASSWORD: ${{ secrets.MATRIX_PASSWORD }}
+          MATRIX_ROOM_ID: ${{ secrets.MATRIX_ROOM_ID }}
+        run: |
+          python send_result.py
