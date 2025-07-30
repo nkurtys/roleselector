@@ -1,52 +1,46 @@
-# My Python Project
+# Role Assignment App
 
-## Overview
-This project is a Python application that demonstrates core functionality through its main logic defined in `src/main.py`. It includes unit tests to ensure the correctness of the code.
+This Python project assigns four rotating roles (Moderator, Notetaker, Timekeeper, Speaker) to a group of people, ensuring that each person gets every role an equal number of times over time.
 
-## Project Structure
-```
-my-python-project
-├── src
-│   └── main.py
-├── tests
-│   └── test_main.py
-├── requirements.txt
-└── README.md
-```
+## Features
 
-## Getting Started
+- Reads people from `src/people.json`
+- Tracks weekly role assignments in `src/weeks.json`
+- Ensures fair and balanced distribution of roles
+- Prevents people from being assigned two weeks in a row (if possible)
 
-### Prerequisites
-Make sure you have Python installed on your machine. You can download it from [python.org](https://www.python.org/downloads/).
+## Usage
 
-### Installation
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```
-   cd my-python-project
-   ```
-3. Install the required packages:
-   ```
-   pip install -r requirements.txt
+1. **Add your people**  
+   Edit `src/people.json` and list each person as:
+   ```json
+   [
+     { "name": "Person One" },
+     { "name": "Person Two" }
+   ]
    ```
 
-### Running the Application
-To run the application, execute the following command:
-```
-python src/main.py
-```
+2. **Run the script**  
+   In the terminal, run:
+   ```
+   python src/roleapp.py
+   ```
 
-### Running Tests
-To run the unit tests, use the following command:
-```
-python -m unittest discover -s tests
-```
+3. **View assignments**  
+   - The script prints the new week's assignments.
+   - All assignments are saved in `src/weeks.json`.
 
-## Contributing
-If you would like to contribute to this project, please fork the repository and submit a pull request.
+## Requirements
+
+- Python 3.7+
+- No external dependencies
+
+## How it works
+
+- The script reads all previous assignments and counts how often each person has had each role.
+- For each new week, it tries to pick four people who were not assigned last week.
+- Each role is assigned to the person who has done it the least number of times.
+- Results are saved and can be reviewed or extended in future runs.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
