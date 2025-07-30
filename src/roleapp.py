@@ -1,6 +1,17 @@
 import random
 import json
 from collections import defaultdict
+from nio import AsyncClient
+import os
+import asyncio
+from dotenv import load_dotenv
+
+load_dotenv()
+
+HOMESERVER = "https://matrix.org"
+USER_ID = os.environ["MATRIX_USER_ID"]
+ACCESS_TOKEN = os.environ["MATRIX_TOKEN"]
+ROOM_ID = os.environ["MATRIX_ROOM_ID"]
 
 # Load people from people.json
 with open("src/people.json", encoding="utf-8") as f:
@@ -50,7 +61,12 @@ def assign_roles():
     last_week = set([a["name"] for a in assignments])
     return assignments
 
-# Example usage:
+def get_message(new_week):
+    msg = f"**Week {new_week['week']} Role Assignments:**\n"
+    for entry in new_week["people"]:
+        msg += f"- {entry['role']}: {entry['name']}\n"
+    return msg
+
 if __name__ == "__main__":
     new_week = {
         "week": len(weeks_data) + 1,
@@ -60,4 +76,25 @@ if __name__ == "__main__":
     with open("src/weeks.json", "w", encoding="utf-8") as f:
         json.dump(weeks_data, f, indent=4, ensure_ascii=False)
 
-    print(json.dumps(new_week, indent=4, ensure_ascii=False))    
+    print(json.dumps(new_week, indent=4, ensure_ascii=False))
+
+    # Send to Matrix if credentials are set
+    MESSAGE = get_message(new_week)
+
+    async def main():
+        if not all([HOMESERVER, USER_ID, ACCESS_TOKEN, ROOM_ID]):
+            print("Matrix credentials not set. Skipping Matrix message.")
+            return
+        client = AsyncClient(HOMESERVER, USER_ID)
+        client.access_token = ACCESS_TOKEN
+        client.user_id = USER_ID
+        client.device_id = "GITHUBBOT"  # Optional, can be anything
+
+        await client.room_send(
+            room_id=ROOM_ID,
+            message_type="m.room.message",
+            content={"msgtype": "m.text", "body": MESSAGE}
+        )
+        await client.close()
+
+    asyncio.run(main())

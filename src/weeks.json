@@ -3,19 +3,19 @@
         "week": 1,
         "people": [
             {
-                "name": "Ziyad Sanaullah",
+                "name": "Natalie Kurtys",
                 "role": "Moderator"
             },
             {
-                "name": "Eva Seidlmayer",
+                "name": "Silvia Di Giorgio",
                 "role": "Notetaker"
             },
             {
-                "name": "Till Sauerwein",
+                "name": "Vanessa Scharf",
                 "role": "Timekeeper"
             },
             {
-                "name": "Silvia Di Giorgio",
+                "name": "Eva Seidlmayer",
                 "role": "Speaker"
             }
         ]
@@ -24,78 +24,15 @@
         "week": 2,
         "people": [
             {
-                "name": "Rabea Müller",
+                "name": "Maryam El Ghadioui",
                 "role": "Moderator"
             },
-            {
-                "name": "Vanessa Scharf",
-                "role": "Notetaker"
-            },
-            {
-                "name": "Natalie Kurtys",
-                "role": "Timekeeper"
-            },
-            {
-                "name": "Benjamin Wolff",
-                "role": "Speaker"
-            }
-        ]
-    },
-    {
-        "week": 3,
-        "people": [
-            {
-                "name": "Lina Junctorius",
-                "role": "Moderator"
-            },
-            {
-                "name": "Silvia Di Giorgio",
-                "role": "Notetaker"
-            },
-            {
-                "name": "Konrad Förstner",
-                "role": "Timekeeper"
-            },
-            {
-                "name": "Eva Seidlmayer",
-                "role": "Speaker"
-            }
-        ]
-    },
-    {
-        "week": 4,
-        "people": [
             {
                 "name": "Till Sauerwein",
-                "role": "Moderator"
-            },
-            {
-                "name": "Muhammad Elhossary",
                 "role": "Notetaker"
             },
             {
-                "name": "Ziyad Sanaullah",
-                "role": "Timekeeper"
-            },
-            {
-                "name": "Vanessa Scharf",
-                "role": "Speaker"
-            }
-        ]
-    },
-    {
-        "week": 5,
-        "people": [
-            {
-                "name": "Klaus Lippert",
-                "role": "Moderator"
-            },
-            {
-                "name": "Justine Vandendorpe",
-                "role": "Notetaker"
-            },
-            {
-                "name": "Maryam El Ghadioui",
+                "name": "Rabea Müller",
                 "role": "Timekeeper"
             },
             {
@@ -105,10 +42,31 @@
         ]
     },
     {
-        "week": 6,
+        "week": 3,
         "people": [
             {
-                "name": "Natalie Kurtys",
+                "name": "Klaus Lippert",
+                "role": "Moderator"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Speaker"
+            }
+        ]
+    },
+    {
+        "week": 4,
+        "people": [
+            {
+                "name": "Lina Junctorius",
                 "role": "Moderator"
             },
             {
@@ -116,7 +74,28 @@
                 "role": "Notetaker"
             },
             {
-                "name": "Muhammad Elhossary",
+                "name": "Benjamin Wolff",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Rabea Müller",
+                "role": "Speaker"
+            }
+        ]
+    },
+    {
+        "week": 5,
+        "people": [
+            {
+                "name": "Till Sauerwein",
+                "role": "Moderator"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Silvia Di Giorgio",
                 "role": "Timekeeper"
             },
             {
