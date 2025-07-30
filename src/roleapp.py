@@ -4,9 +4,6 @@ from collections import defaultdict
 from nio import AsyncClient
 import os
 import asyncio
-from dotenv import load_dotenv
-
-load_dotenv()
 
 HOMESERVER = "https://matrix.org"
 USER_ID = os.environ["MATRIX_USER_ID"]
@@ -88,7 +85,7 @@ if __name__ == "__main__":
         client = AsyncClient(HOMESERVER, USER_ID)
         client.access_token = ACCESS_TOKEN
         client.user_id = USER_ID
-        client.device_id = "GITHUBBOT"  # Optional, can be anything
+        client.device_id = "rolesBOT"
 
         await client.room_send(
             room_id=ROOM_ID,
