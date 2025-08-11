@@ -1,0 +1,23 @@
+[
+    {
+        "week": 1,
+        "people": [
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Moderator"
+            },
+            {
+                "name": "Rabea Müller",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Benjamin Wolff",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Speaker"
+            }
+        ]
+    }
+]

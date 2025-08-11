@@ -28,3 +28,14 @@ jobs:
           MATRIX_ROOM_ID: ${{ secrets.MATRIX_ROOM_ID }}
         run: |
           python src/roleapp.py
+
+      - name: Commit updated JSON file
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add src/weeks.json
+          git commit -m "Update weeks.json with new assignments" || echo "No changes to commit"
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
