@@ -5,7 +5,7 @@ import asyncio
 from collections import defaultdict
 from nio import AsyncClient
 
-## Uncomment the following lines if you want to use a .env file for environment variables
+# # Uncomment the following lines if you want to use a .env file for environment variables
 # from dotenv import load_dotenv
 # import os
 # load_dotenv()
