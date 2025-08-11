@@ -2,7 +2,7 @@ name: Send Matrix Message
 
 on:
   schedule:
-    - cron: '17 9 * * *'  # Every Tuesday at 08:00 UTC '0 8 * * 2'
+    - cron: '*/5 * * * *'  # Every Tuesday at 08:00 UTC '0 8 * * 2'
   workflow_dispatch:
 
 jobs:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
