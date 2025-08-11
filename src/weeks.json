@@ -19,5 +19,26 @@
                 "role": "Speaker"
             }
         ]
+    },
+    {
+        "week": 2,
+        "people": [
+            {
+                "name": "Natalie Kurtys",
+                "role": "Moderator"
+            },
+            {
+                "name": "Klaus Lippert",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Speaker"
+            }
+        ]
     }
 ]
