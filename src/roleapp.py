@@ -5,6 +5,12 @@ import asyncio
 from collections import defaultdict
 from nio import AsyncClient
 
+from dotenv import load_dotenv
+import os
+
+# Load variables from .env into environment
+load_dotenv()
+
 
 HOMESERVER = "https://matrix.org"
 USER_ID = os.environ["MATRIX_USERNAME"]
@@ -60,9 +66,10 @@ def assign_roles():
     return assignments
 
 def get_message(new_week):
-    msg = f"**Week {new_week['week']} Role Assignments:**\n"
+    msg = "<strong>Weekly Role Assignments:</strong><br><ul>"
     for entry in new_week["people"]:
-        msg += f"- {entry['role']}: {entry['name']}\n"
+        msg += f"<li><strong>{entry['role']}</strong>: {entry['name']} </li>\n"
+    msg += "</ul>"
     return msg
 
 if __name__ == "__main__":
@@ -88,11 +95,15 @@ if __name__ == "__main__":
         client.user_id = USER_ID
         client.device_id = "rolesBOT"
 
-        await client.room_send(
-            room_id=ROOM_ID,
-            message_type="m.room.message",
-            content={"msgtype": "m.text", "body": MESSAGE}
-        )
+        try:
+            resp = await client.room_send(
+                room_id=ROOM_ID,
+                message_type="m.room.message",
+                content={"msgtype": "m.text", "format": "org.matrix.custom.html", "formatted_body": MESSAGE, "body": MESSAGE}
+            )
+            print(f"Matrix send response: {resp}")
+        except Exception as e:
+            print(f"Error sending message: {e}")
         await client.close()
 
     asyncio.run(main())
