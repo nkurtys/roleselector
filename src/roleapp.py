@@ -5,11 +5,10 @@ import asyncio
 from collections import defaultdict
 from nio import AsyncClient
 
-from dotenv import load_dotenv
-import os
-
-# Load variables from .env into environment
-load_dotenv()
+## Uncomment the following lines if you want to use a .env file for environment variables
+# from dotenv import load_dotenv
+# import os
+# load_dotenv()
 
 
 HOMESERVER = "https://matrix.org"
