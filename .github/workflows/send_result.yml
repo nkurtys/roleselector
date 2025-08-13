@@ -14,6 +14,10 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Update branch
+        run: |
+          git pull origin main
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -35,7 +39,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git pull main
           git add src/weeks.json
           git commit -m "Update weeks.json with new assignments" || echo "No changes to commit"
       - name: Push changes
