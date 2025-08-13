@@ -19,5 +19,26 @@
                 "role": "Timekeeper"
             }
         ]
+    },
+    {
+        "week": 2,
+        "people": [
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Moderator"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Klaus Lippert",
+                "role": "Speaker"
+            }
+        ]
     }
 ]
