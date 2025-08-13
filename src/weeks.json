@@ -3,20 +3,20 @@
         "week": 1,
         "people": [
             {
-                "name": "Mareike Wohltmann",
+                "name": "Eva Seidlmayer",
                 "role": "Moderator"
             },
             {
-                "name": "Rabea Müller",
-                "role": "Notetaker"
+                "name": "Natalie Kurtys",
+                "role": "Notetaker 1"
             },
             {
-                "name": "Benjamin Wolff",
+                "name": "Justine Vandendorpe",
+                "role": "Notetaker 2"
+            },
+            {
+                "name": "Konrad Förstner",
                 "role": "Timekeeper"
-            },
-            {
-                "name": "Muhammad Elhossary",
-                "role": "Speaker"
             }
         ]
     }
