@@ -21,7 +21,7 @@ with open("src/people.json", encoding="utf-8") as f:
     people_data = json.load(f)
 people = [p["name"] for p in people_data]
 
-roles = ['Moderator', 'Notetaker', 'Timekeeper', 'Speaker']
+roles = ['Moderator', 'Notetaker', 'Timekeeper', 'Speaker', 'Alternative 1', 'Alternative 2']
 
 # Load previous weeks from weeks.json
 try:
@@ -45,9 +45,9 @@ def assign_roles():
     global last_week
     # Pick 4 people not in last week's group
     candidates = [p for p in people if p not in last_week]
-    if len(candidates) < 4:
+    if len(candidates) < 6:
         candidates = people.copy()
-    selected = random.sample(candidates, 4)
+    selected = random.sample(candidates, 6)
 
     # For each role, assign to the selected person who has done it the least
     assignments = []
