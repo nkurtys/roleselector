@@ -40,5 +40,34 @@
                 "role": "Speaker"
             }
         ]
+    },
+    {
+        "week": 3,
+        "people": [
+            {
+                "name": "Rabea Müller",
+                "role": "Moderator"
+            },
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Till Sauerwein",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Speaker"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Konrad Förstner",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
