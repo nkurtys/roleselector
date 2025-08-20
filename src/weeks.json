@@ -69,5 +69,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 4,
+        "people": [
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Moderator"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Benjamin Wolff",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Natalie Kurtys",
+                "role": "Speaker"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Klaus Lippert",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
