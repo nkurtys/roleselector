@@ -127,5 +127,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 6,
+        "people": [
+            {
+                "name": "Klaus Lippert",
+                "role": "Moderator"
+            },
+            {
+                "name": "Natalie Kurtys",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Speaker"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Benjamin Wolff",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
