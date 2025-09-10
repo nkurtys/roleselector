@@ -156,5 +156,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 7,
+        "people": [
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Moderator"
+            },
+            {
+                "name": "Rabea Müller",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Speaker"
+            },
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Konrad Förstner",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
