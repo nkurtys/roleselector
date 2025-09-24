@@ -214,5 +214,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 9,
+        "people": [
+            {
+                "name": "Lina Junctorius",
+                "role": "Moderator"
+            },
+            {
+                "name": "Konrad Förstner",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Rabea Müller",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Speaker"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Klaus Lippert",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
