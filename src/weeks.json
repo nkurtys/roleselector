@@ -243,5 +243,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 10,
+        "people": [
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Moderator"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Natalie Kurtys",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Till Sauerwein",
+                "role": "Speaker"
+            },
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
