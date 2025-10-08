@@ -272,5 +272,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 11,
+        "people": [
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Moderator"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Rabea Müller",
+                "role": "Speaker"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Konrad Förstner",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
