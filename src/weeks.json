@@ -301,5 +301,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 12,
+        "people": [
+            {
+                "name": "Natalie Kurtys",
+                "role": "Moderator"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Speaker"
+            },
+            {
+                "name": "Till Sauerwein",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
