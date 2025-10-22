@@ -330,5 +330,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 13,
+        "people": [
+            {
+                "name": "Benjamin Wolff",
+                "role": "Moderator"
+            },
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Speaker"
+            },
+            {
+                "name": "Rabea Müller",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
