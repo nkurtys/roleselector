@@ -359,5 +359,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 14,
+        "people": [
+            {
+                "name": "Konrad Förstner",
+                "role": "Moderator"
+            },
+            {
+                "name": "Klaus Lippert",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Speaker"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Till Sauerwein",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
