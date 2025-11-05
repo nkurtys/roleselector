@@ -388,5 +388,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 15,
+        "people": [
+            {
+                "name": "Vanessa Scharf",
+                "role": "Moderator"
+            },
+            {
+                "name": "Benjamin Wolff",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Speaker"
+            },
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
