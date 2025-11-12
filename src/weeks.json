@@ -417,5 +417,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 16,
+        "people": [
+            {
+                "name": "Klaus Lippert",
+                "role": "Moderator"
+            },
+            {
+                "name": "Natalie Kurtys",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Speaker"
+            },
+            {
+                "name": "Konrad Förstner",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Rabea Müller",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
