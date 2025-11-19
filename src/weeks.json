@@ -446,5 +446,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 17,
+        "people": [
+            {
+                "name": "Lina Junctorius",
+                "role": "Moderator"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Speaker"
+            },
+            {
+                "name": "Till Sauerwein",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
