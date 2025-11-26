@@ -475,5 +475,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 18,
+        "people": [
+            {
+                "name": "Natalie Kurtys",
+                "role": "Moderator"
+            },
+            {
+                "name": "Konrad Förstner",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Klaus Lippert",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Speaker"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
