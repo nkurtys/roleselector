@@ -533,5 +533,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 20,
+        "people": [
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Moderator"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Natalie Kurtys",
+                "role": "Speaker"
+            },
+            {
+                "name": "Klaus Lippert",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
