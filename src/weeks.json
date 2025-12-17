@@ -562,5 +562,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 21,
+        "people": [
+            {
+                "name": "Benjamin Wolff",
+                "role": "Moderator"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Till Sauerwein",
+                "role": "Speaker"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
