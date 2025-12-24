@@ -591,5 +591,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 22,
+        "people": [
+            {
+                "name": "Vanessa Scharf",
+                "role": "Moderator"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Konrad Förstner",
+                "role": "Speaker"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Rabea Müller",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
