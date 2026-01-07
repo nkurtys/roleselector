@@ -649,5 +649,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 24,
+        "people": [
+            {
+                "name": "Konrad Förstner",
+                "role": "Moderator"
+            },
+            {
+                "name": "Rabea Müller",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Benjamin Wolff",
+                "role": "Speaker"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
