@@ -678,5 +678,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 25,
+        "people": [
+            {
+                "name": "Till Sauerwein",
+                "role": "Moderator"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Klaus Lippert",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Speaker"
+            },
+            {
+                "name": "Natalie Kurtys",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
