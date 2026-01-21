@@ -707,5 +707,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 26,
+        "people": [
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Moderator"
+            },
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Speaker"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
