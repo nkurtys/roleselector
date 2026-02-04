@@ -765,5 +765,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 28,
+        "people": [
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Moderator"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Speaker"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
