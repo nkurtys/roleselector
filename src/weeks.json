@@ -794,5 +794,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 29,
+        "people": [
+            {
+                "name": "Klaus Lippert",
+                "role": "Moderator"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Rabea Müller",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Konrad Förstner",
+                "role": "Speaker"
+            },
+            {
+                "name": "Benjamin Wolff",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
