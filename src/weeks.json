@@ -823,5 +823,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 30,
+        "people": [
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Moderator"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Speaker"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Natalie Kurtys",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
