@@ -968,5 +968,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 35,
+        "people": [
+            {
+                "name": "Konrad Förstner",
+                "role": "Moderator"
+            },
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Rabea Müller",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Speaker"
+            },
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
