@@ -1026,5 +1026,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 37,
+        "people": [
+            {
+                "name": "Till Sauerwein",
+                "role": "Moderator"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Speaker"
+            },
+            {
+                "name": "Konrad Förstner",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
