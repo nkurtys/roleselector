@@ -1113,5 +1113,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 40,
+        "people": [
+            {
+                "name": "Rabea Müller",
+                "role": "Moderator"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Natalie Kurtys",
+                "role": "Speaker"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
