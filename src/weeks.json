@@ -1142,5 +1142,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 41,
+        "people": [
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Moderator"
+            },
+            {
+                "name": "Konrad Förstner",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Till Sauerwein",
+                "role": "Speaker"
+            },
+            {
+                "name": "Klaus Lippert",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
