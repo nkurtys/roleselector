@@ -1200,5 +1200,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 43,
+        "people": [
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Moderator"
+            },
+            {
+                "name": "Till Sauerwein",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Speaker"
+            },
+            {
+                "name": "Konrad Förstner",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Rabea Müller",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
