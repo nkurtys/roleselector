@@ -1316,5 +1316,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 47,
+        "people": [
+            {
+                "name": "Rabea Müller",
+                "role": "Moderator"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Speaker"
+            },
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
