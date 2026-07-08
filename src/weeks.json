@@ -1403,5 +1403,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 50,
+        "people": [
+            {
+                "name": "Konrad Förstner",
+                "role": "Moderator"
+            },
+            {
+                "name": "Klaus Lippert",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Speaker"
+            },
+            {
+                "name": "Natalie Kurtys",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
