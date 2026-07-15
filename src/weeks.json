@@ -1432,5 +1432,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 51,
+        "people": [
+            {
+                "name": "Benjamin Wolff",
+                "role": "Moderator"
+            },
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Speaker"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
