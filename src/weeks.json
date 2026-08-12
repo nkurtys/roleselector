@@ -1548,5 +1548,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 55,
+        "people": [
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Moderator"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Natalie Kurtys",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Speaker"
+            },
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
