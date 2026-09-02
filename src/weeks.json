@@ -1635,5 +1635,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 58,
+        "people": [
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Moderator"
+            },
+            {
+                "name": "Benjamin Wolff",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Rabea Müller",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Speaker"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Till Sauerwein",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
