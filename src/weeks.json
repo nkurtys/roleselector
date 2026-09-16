@@ -1693,5 +1693,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 60,
+        "people": [
+            {
+                "name": "Klaus Lippert",
+                "role": "Moderator"
+            },
+            {
+                "name": "Maryam El Ghadioui",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Benjamin Wolff",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Rabea Müller",
+                "role": "Speaker"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
