@@ -1722,5 +1722,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 61,
+        "people": [
+            {
+                "name": "Silvia Di Giorgio",
+                "role": "Moderator"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Till Sauerwein",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Speaker"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Natalie Kurtys",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
