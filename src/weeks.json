@@ -1780,5 +1780,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 63,
+        "people": [
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Moderator"
+            },
+            {
+                "name": "Till Sauerwein",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Natalie Kurtys",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Speaker"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
