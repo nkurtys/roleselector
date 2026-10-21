@@ -1838,5 +1838,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 65,
+        "people": [
+            {
+                "name": "Klaus Lippert",
+                "role": "Moderator"
+            },
+            {
+                "name": "Eva Seidlmayer",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Vanessa Scharf",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Benjamin Wolff",
+                "role": "Speaker"
+            },
+            {
+                "name": "Natalie Kurtys",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Mareike Wohltmann",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
