@@ -1925,5 +1925,34 @@
                 "role": "Alternative 2"
             }
         ]
+    },
+    {
+        "week": 68,
+        "people": [
+            {
+                "name": "Justine Vandendorpe",
+                "role": "Moderator"
+            },
+            {
+                "name": "Konrad Förstner",
+                "role": "Notetaker"
+            },
+            {
+                "name": "Lina Junctorius",
+                "role": "Timekeeper"
+            },
+            {
+                "name": "Benjamin Wolff",
+                "role": "Speaker"
+            },
+            {
+                "name": "Muhammad Elhossary",
+                "role": "Alternative 1"
+            },
+            {
+                "name": "Ziyad Sanaullah",
+                "role": "Alternative 2"
+            }
+        ]
     }
 ]
